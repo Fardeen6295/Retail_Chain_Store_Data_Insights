@@ -77,7 +77,7 @@ fig = px.bar(data_frame=df_new.groupby(['Gender','Income']).size().reset_index(n
 fig.show()
 ```
 ### Result of Code
-![Male Female by Income Level](2_Project\Visuals\Male_Female_Income.png)
+![Male Female by Income Level](/UG_Project_Retail_Chain_Store/Visuals/Male_Female_Income.png)
 
 ## 2. Let's See the Overall Revenue Trend and Category Wise As well.
 Revenue Trend of Entrie Year Give details about pattern and Category wise best performance by Month so we can get to know their Peak and Low Era.
@@ -94,7 +94,7 @@ plt.title('Revenue Trend for Year 2023-24')
 plt.show()
 ```
 ### Result of the Code
-![Revenue Trend of Entrie Year](2_Project\Visuals\Rev_trend.png)
+![Revenue Trend of Entrie Year](/UG_Project_Retail_Chain_Store/Visuals/Rev_trend.png)
 
 ## Revenue Trend By Different Category
 ### For Data Visualization
@@ -110,7 +110,7 @@ plt.title('Revenue Trend of Different Categories at Store', fontsize=18)
 plt.show()
 ```
 ### Result of Code
-![Revenue Trend by Categories](2_Project\Visuals\Rev_trend_by-Category.png)
+![Revenue Trend by Categories](/UG_Project_Retail_Chain_Store/Visuals/Rev_trend_by-Category.png)
 
 ## 3. We Also want to see Which Customer Segmenst Brings More Revenue and which is Low.
 Understand Revenue Distribuition by Customer Segements Helps a lot for Marketing Decision.
@@ -136,7 +136,7 @@ ax.legend(x[::-1], y[::-1], title='Count')
 plt.show()
 ```
 ### Result of Code
-![Revenue by Customer Segment](2_Project\Visuals\Rev_by_Customer_segments.png)
+![Revenue by Customer Segment](/UG_Project_Retail_Chain_Store/Visuals/Rev_by_Customer_segments.png)
 ### Key Insights 
 Regualr Customer Contribute the MAX while Premium are at LOW.
 
@@ -158,7 +158,7 @@ for n, v in enumerate(cat_rev['Total_Amount']):
 plt.show()
 ```
 ### Result of Code
-![Revenue by Categories](2_Project\Visuals\Rev_by_Category.png)
+![Revenue by Categories](/UG_Project_Retail_Chain_Store/Visuals/Rev_by_Category.png)
 ### Key Insights 
 Electronics are Highest Contibutor here.
 
@@ -177,10 +177,10 @@ fig.update_traces(textfont_color='white')
 fig.show()
 ```
 ### Result of Code
-![Revenue by Categories and their Brand](2_Project\Visuals\Rev_by_Category_Brand.png)
+![Revenue by Categories and their Brand](/UG_Project_Retail_Chain_Store/Visuals/Rev_by_Category_Brand.png)
 
 ### Method 2 By Seaborn
-![Revenue By Categories and Brand with Seaborn](2_Project\Visuals\By_Seaborn_Cat_brand.png)
+![Revenue By Categories and Brand with Seaborn](/UG_Project_Retail_Chain_Store/Visuals/By_Seaborn_Cat_brand.png)
 
 ## 6. Next let's analyze and find most prefered Payment Method.
 Understanding of this helps in curating offers and discount for customers.
@@ -203,7 +203,7 @@ plt.title('Revenue via Payment Methods', fontsize=14)
 plt.show()
 ```
 ### Resukt of the code
-![Revenue Distribuition by Payment Methods](2_Project\Visuals\Rev_by_Payment_Method.png)
+![Revenue Distribuition by Payment Methods](/UG_Project_Retail_Chain_Store/Visuals/Rev_by_Payment_Method.png)
 ### Key Findings
 Credit Card is the Most Used Payment Method while Paypal Being the Less Prefered by Customers.
 
@@ -225,7 +225,7 @@ plt.ylabel('Province / State')
 plt.title('Countries with their Top Performing Province', fontsize=14)
 ```
 ### Result of the Code
-![Best Provine/State of Each Country](2_Project\Visuals\Rev_of_each_country_top_Provive_State.png)
+![Best Provine/State of Each Country](/UG_Project_Retail_Chain_Store/Visuals/Rev_of_each_country_top_Provive_State.png)
 ### Key Insgihts
 You Can see UK Being the Top Country Source of Revenue with England as Top Province
 
@@ -245,7 +245,7 @@ fig.update_traces(rotation=90, textfont_color='white')
 fig.show()
 ```
 ### Result of the Code
-![Revenue by Country->State/Provine->City](2_Project\Visuals\Rev_by_Country_State_City.PNG)
+![Revenue by Country->State/Provine->City](/UG_Project_Retail_Chain_Store/Visuals/Rev_by_Country_State_City.PNG)
 ### Key Insights
 In fact UsA was Last in Previous Grapgh But on Grander Level It is the Most Revenue Generating Country
 While Canada is at Last Stand in Terms of Revenue.
@@ -260,7 +260,7 @@ We will use 3 methods for this, from basuc to Advance level Distribuition Plot.
 ax = sns.displot(data=df_new, x='Total_Amount', bins=10, linewidth=1.5, edgecolor='black')
 ```
 ### Output
-![Distribuition Plot of Amount Levell](2_Project\Visuals\Level1.png)
+![Distribuition Plot of Amount Levell](/UG_Project_Retail_Chain_Store/Visuals/Level1.png)
 
 ### Intermediate Level 2
 ### Code for this
@@ -280,7 +280,7 @@ for x in ax.containers:
     ax.bar_label(x)
 ```
 ### Output
-![Distribuition Plot of Amount Level2](2_Project\Visuals\Level2.png)
+![Distribuition Plot of Amount Level2](/UG_Project_Retail_Chain_Store/Visuals/Level2.png)
 
 ### Advance Level 3
 ### Code for this
@@ -303,7 +303,7 @@ ax.yaxis.set_major_formatter(plt.FuncFormatter(lambda y,pos: f'{y}%'))
 plt.show()
 ```
 ### Output
-![Distribuition Plot of Amount Level2](2_Project\Visuals\Rev_Amount_Distribuition_plot.png)
+![Distribuition Plot of Amount Level2](/UG_Project_Retail_Chain_Store/Visuals/Rev_Amount_Distribuition_plot.png)
 Here we can have an idea that almost 50% of our Revenue is generated from 0-1000 Trasactional Value
 
 ## 10. Revenue by Product Type and their Brands as well for Top 10 Type of Product only based on Revenue
@@ -331,7 +331,7 @@ fig.update_layout(
 fig.show()
 ```
 ### Output
-![Revenue from Top 10 Products and their Brands](2_Project\Visuals\Rev_By_Product_Type_Brand.PNG)
+![Revenue from Top 10 Products and their Brands](/UG_Project_Retail_Chain_Store/Visuals/Rev_By_Product_Type_Brand.PNG)
 We can have an idea of best products and their Creating Brands
 
 ## 11. And Last but not the Least we have to see Customer Rating of Each Category we are selling.
@@ -353,6 +353,6 @@ fig.update_layout(bargap=0.15,
 fig.show()
 ```
 ### Result as an Output
-![Rating for Each Category and what % of the Rating is 1 or 5](2_Project\Visuals\Ratings%_for_Category_by_Each_rating_Num.PNG)
+![Rating for Each Category and what % of the Rating is 1 or 5](/UG_Project_Retail_Chain_Store/Visuals/Ratings%_for_Category_by_Each_rating_Num.PNG)
 ### Key Insights
 We can have idea from this visual that What % of Rating for this Category is for 1,2,3,4,5
