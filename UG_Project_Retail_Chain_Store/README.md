@@ -353,6 +353,6 @@ fig.update_layout(bargap=0.15,
 fig.show()
 ```
 ### Result as an Output
-![Rating for Each Category and what % of the Rating is 1 or 5](/UG_Project_Retail_Chain_Store/Visuals/Ratings%_for_Category_by_Each_rating_Num.PNG)
+![Revenue from Top 10 Products and their Brands](/UG_Project_Retail_Chain_Store/Visuals/Ratings.PNG)
 ### Key Insights
 We can have idea from this visual that What % of Rating for this Category is for 1,2,3,4,5
