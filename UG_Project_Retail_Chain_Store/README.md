@@ -356,3 +356,10 @@ fig.show()
 ![Revenue from Top 10 Products and their Brands](/UG_Project_Retail_Chain_Store/Visuals/Ratings.PNG)
 ### Key Insights
 We can have idea from this visual that What % of Rating for this Category is for 1,2,3,4,5
+
+## Conclusion
+I have to say this Entire Project took around 3 Days to complete and I have to admit that It was Worth my Time Invested.
+Plotly Express was used just to showcase a different method of doing same thing which was new for me and worth Learning.
+In the Process I git hand-on experience with Dealing with Huge Data to Find Insights from it and make worthy decisions from them.
+The same thing can be achieved from Excel, Power BI as well but it is good to learn Python becausse when You have millions of Rows of Data, everything will fail except Python.
+# Thank You, If You are reading this, You are a Data Nerd Like me.
